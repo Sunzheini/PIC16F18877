@@ -1,0 +1,156 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F18877 ]
+[d frameptr 6 ]
+"10 D:\Study\Microchip\xc8\v2.32\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 D:\Study\Microchip\xc8\v2.32\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 D:\Study\Microchip\xc8\v2.32\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"73 D:\Study\Projects\MPLABXProjects\TemplateRaw.X\newmain.c
+[v _main main `(i  1 e 2 0 ]
+[s S198 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"470 D:/Study/Microchip/MPLABX/v5.50/packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8\pic\include\proc\pic16f18877.h
+[u S207 . 1 `S198 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES207  1 e 1 @13 ]
+"739
+[v _TRISB TRISB `VEuc  1 e 1 @18 ]
+[s S27 . 1 `uc 1 TRISB0 1 0 :1:0 
+`uc 1 TRISB1 1 0 :1:1 
+`uc 1 TRISB2 1 0 :1:2 
+`uc 1 TRISB3 1 0 :1:3 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+"756
+[u S36 . 1 `S27 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES36  1 e 1 @18 ]
+"863
+[v _TRISD TRISD `VEuc  1 e 1 @20 ]
+[s S132 . 1 `uc 1 TRISE0 1 0 :1:0 
+`uc 1 TRISE1 1 0 :1:1 
+`uc 1 TRISE2 1 0 :1:2 
+]
+"937
+[u S136 . 1 `S132 1 . 1 0 ]
+[v _TRISEbits TRISEbits `VES136  1 e 1 @21 ]
+[s S111 . 1 `uc 1 LATB0 1 0 :1:0 
+`uc 1 LATB1 1 0 :1:1 
+`uc 1 LATB2 1 0 :1:2 
+`uc 1 LATB3 1 0 :1:3 
+`uc 1 LATB4 1 0 :1:4 
+`uc 1 LATB5 1 0 :1:5 
+`uc 1 LATB6 1 0 :1:6 
+`uc 1 LATB7 1 0 :1:7 
+]
+"1036
+[u S120 . 1 `S111 1 . 1 0 ]
+[v _LATBbits LATBbits `VES120  1 e 1 @23 ]
+"1143
+[v _LATD LATD `VEuc  1 e 1 @25 ]
+[s S178 . 1 `uc 1 LATE0 1 0 :1:0 
+`uc 1 LATE1 1 0 :1:1 
+`uc 1 LATE2 1 0 :1:2 
+]
+"1217
+[u S182 . 1 `S178 1 . 1 0 ]
+[v _LATEbits LATEbits `VES182  1 e 1 @26 ]
+"34114
+[v _ANSELB ANSELB `VEuc  1 e 1 @8003 ]
+[s S48 . 1 `uc 1 ANSB0 1 0 :1:0 
+`uc 1 ANSB1 1 0 :1:1 
+`uc 1 ANSB2 1 0 :1:2 
+`uc 1 ANSB3 1 0 :1:3 
+`uc 1 ANSB4 1 0 :1:4 
+`uc 1 ANSB5 1 0 :1:5 
+`uc 1 ANSB6 1 0 :1:6 
+`uc 1 ANSB7 1 0 :1:7 
+]
+"34131
+[u S57 . 1 `S48 1 . 1 0 ]
+"34131
+"34131
+[v _ANSELBbits ANSELBbits `VES57  1 e 1 @8003 ]
+"34176
+[v _WPUB WPUB `VEuc  1 e 1 @8004 ]
+[s S90 . 1 `uc 1 WPUB0 1 0 :1:0 
+`uc 1 WPUB1 1 0 :1:1 
+`uc 1 WPUB2 1 0 :1:2 
+`uc 1 WPUB3 1 0 :1:3 
+`uc 1 WPUB4 1 0 :1:4 
+`uc 1 WPUB5 1 0 :1:5 
+`uc 1 WPUB6 1 0 :1:6 
+`uc 1 WPUB7 1 0 :1:7 
+]
+"34193
+[u S99 . 1 `S90 1 . 1 0 ]
+"34193
+"34193
+[v _WPUBbits WPUBbits `VES99  1 e 1 @8004 ]
+[s S69 . 1 `uc 1 ODCB0 1 0 :1:0 
+`uc 1 ODCB1 1 0 :1:1 
+`uc 1 ODCB2 1 0 :1:2 
+`uc 1 ODCB3 1 0 :1:3 
+`uc 1 ODCB4 1 0 :1:4 
+`uc 1 ODCB5 1 0 :1:5 
+`uc 1 ODCB6 1 0 :1:6 
+`uc 1 ODCB7 1 0 :1:7 
+]
+"34255
+[u S78 . 1 `S69 1 . 1 0 ]
+"34255
+"34255
+[v _ODCONBbits ODCONBbits `VES78  1 e 1 @8005 ]
+"35354
+[v _ANSELD ANSELD `VEuc  1 e 1 @8025 ]
+"35416
+[v _WPUD WPUD `VEuc  1 e 1 @8026 ]
+"35478
+[v _ODCOND ODCOND `VEuc  1 e 1 @8027 ]
+[s S143 . 1 `uc 1 ANSE0 1 0 :1:0 
+`uc 1 ANSE1 1 0 :1:1 
+`uc 1 ANSE2 1 0 :1:2 
+]
+"35800
+[u S147 . 1 `S143 1 . 1 0 ]
+"35800
+"35800
+[v _ANSELEbits ANSELEbits `VES147  1 e 1 @8036 ]
+[s S165 . 1 `uc 1 WPUE0 1 0 :1:0 
+`uc 1 WPUE1 1 0 :1:1 
+`uc 1 WPUE2 1 0 :1:2 
+`uc 1 WPUE3 1 0 :1:3 
+]
+"35833
+[u S170 . 1 `S165 1 . 1 0 ]
+"35833
+"35833
+[v _WPUEbits WPUEbits `VES170  1 e 1 @8037 ]
+[s S154 . 1 `uc 1 ODCE0 1 0 :1:0 
+`uc 1 ODCE1 1 0 :1:1 
+`uc 1 ODCE2 1 0 :1:2 
+]
+"35870
+[u S158 . 1 `S154 1 . 1 0 ]
+"35870
+"35870
+[v _ODCONEbits ODCONEbits `VES158  1 e 1 @8038 ]
+"73 D:\Study\Projects\MPLABXProjects\TemplateRaw.X\newmain.c
+[v _main main `(i  1 e 2 0 ]
+{
+"394
+} 0
